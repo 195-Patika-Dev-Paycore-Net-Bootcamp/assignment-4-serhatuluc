@@ -1,0 +1,12 @@
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\bin\Debug\net5.0\PycApi.Dto.deps.json
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\bin\Debug\net5.0\PycApi.Dto.dll
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\bin\Debug\net5.0\ref\PycApi.Dto.dll
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\bin\Debug\net5.0\PycApi.Dto.pdb
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.AssemblyInfo.cs
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.dll
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\ref\PycApi.Dto.dll
+C:\Users\Asus\source\repos\PycApi\PycApi.Dto\obj\Debug\net5.0\PycApi.Dto.pdb
