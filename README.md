@@ -17,3 +17,8 @@ Sql Queries
 ---------------------------------------------------
 Prepared sql queries can be used to test the code. Queries are meant to create three cluster of points. If 3 cluster for contaner with id = 1  is requested then result 
 can be easily checked. Check here -> [Sql Queries](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-serhatuluc/blob/main/query.sql)
+
+Screenshots
+----------------------------------------------------------
+![](screenshots/cluster1.PNG)
+![](screenshots/cluster2.PNG)
