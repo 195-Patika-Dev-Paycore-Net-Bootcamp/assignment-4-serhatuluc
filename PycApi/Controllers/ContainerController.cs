@@ -23,10 +23,21 @@ namespace PycApi.Controllers
     
 
         [HttpGet("GetClustered")]
-        public BaseResponse<List<List<Container>>> GetClustered(int id, int numCluster)
+        public ActionResult<BaseResponse<List<List<Container>>>> GetClustered(int id, int numCluster)
         {
-            
-            return containerService.Clusterized(id,numCluster);
+            //Containers belongs to vehicle is fetched
+            List<Container> containers = containerService.GetContainersByVehicleId(id);
+
+            if (containers.Count == 0)
+            {
+                return NotFound("Vehicle is not found");
+            }
+
+            if(containers.Count < numCluster)
+            {
+                return BadRequest("Maximum number of cluster is excessed");
+            }
+            return containerService.Clusterized(id,numCluster,containers);
             
         }
     }
