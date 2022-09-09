@@ -34,16 +34,14 @@ namespace PycApi.Service
         }
 
 
-        List<Container> GetContainersByVehicleId(int id)
+       public List<Container> GetContainersByVehicleId(int id)
         {
             return hibernateRepository.Where(x => x.vehicle == id).ToList();
         }
 
-        BaseResponse<List<List<Container>>> IContainerService.Clusterized(int id, int numCluster)
+        public BaseResponse<List<List<Container>>> Clusterized(int id, int numCluster,List<Container> containers)
         {
-            //Containers belongs to vehicle is fetched
-            List<Container> containers = GetContainersByVehicleId(id);
-
+           
             //"data" is used in cluster algorithm
             double[][] data = new double[containers.Count][];
 
@@ -75,6 +73,7 @@ namespace PycApi.Service
             }
         
             return new BaseResponse<List<List<Container>>>(clusteredContainers);
-        }    
+        }
+
     }
 }
