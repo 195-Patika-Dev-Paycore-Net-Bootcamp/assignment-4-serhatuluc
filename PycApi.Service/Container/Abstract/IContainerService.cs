@@ -8,7 +8,8 @@ namespace PycApi.Service
 {
     public interface IContainerService  : IBaseService<ContainerDto, Container>
     {
-        BaseResponse<List<List<Container>>> Clusterized(int id,int numCluster);
+        BaseResponse<List<List<Container>>> Clusterized(int id,int numCluster,List<Container> containers);
+        List<Container> GetContainersByVehicleId(int id);
 
     }
 }
