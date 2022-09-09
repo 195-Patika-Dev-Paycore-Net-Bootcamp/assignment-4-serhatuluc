@@ -4,7 +4,7 @@
   VALUES (1,'mercedes', '42a45');
       
 
-INSERT INTO container
+INSERT INTO containers
   VALUES (1,'abc', 3.3,3.4,1),
   (2,'bcd', 3.3,3.2,1),
   (3,'cde', 4.4,4.3,1),
