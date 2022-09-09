@@ -30,7 +30,7 @@ namespace PycApi.StartUpExtension
                 c.Dialect<PostgreSQLDialect>(); 
                 c.ConnectionString = connectionString;
                 c.KeywordsAutoImport = Hbm2DDLKeyWords.AutoQuote;
-                c.SchemaAction = SchemaAutoAction.Validate;
+                c.SchemaAction = SchemaAutoAction.Update;
                 c.LogFormattedSql = true;
                 c.LogSqlInConsole = true;
             });
