@@ -12,3 +12,8 @@ Extension is used in a service which works for container. Check here ->[Containe
 Controller
 ----------------------------------------------------------------
 This is how it looks in controller. Check here ->[Container Controller](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-serhatuluc/blob/main/PycApi/Controllers/ContainerController.cs)
+
+Sql Queries
+---------------------------------------------------
+Prepared sql queries can be used to test the code. Queries are meant to create three cluster of points. If 3 cluster for contaner with id = 1  is requested then result 
+can be easily checked. Check here -> [Sql Queries](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-serhatuluc/blob/main/query.sql)
